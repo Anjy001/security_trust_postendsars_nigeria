@@ -1,0 +1,80 @@
+# ============================
+# Sensitive / Raw Data
+# ============================
+data/raw/*
+!data/raw/.gitkeep
+*.csv
+!data/processed/csti_master_dataset.csv
+*.xlsx
+*.dta
+*.sav
+*.zip
+
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ============================
+# Virtual Environments
+# ============================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================
+# Jupyter Notebook
+# ============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ============================
+# Environment / Secrets
+# ============================
+.env
+.env.local
+*.pem
+config/secrets.yaml
+
+# ============================
+# OS-specific files
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# IDE / Editor
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================
+# Logs & Caches
+# ============================
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# ============================
+# Model / Output Artifacts (optional — uncomment if large)
+# ============================
+# results/figures/*.png
+# results/model_summaries/*.txt
